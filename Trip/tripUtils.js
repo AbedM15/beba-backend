@@ -23,4 +23,17 @@ async function fullTrips(tripIds) {
   return trips;
 }
 
-module.exports = { fullTrips };
+async function tripIdsFromPhoneNumber(phoneNumber) {
+  //first get the payments
+  const payments = await new Promise((resolve, reject) => {
+    stores.payments.find({ phoneNumber }, {}, (error, payments) => {
+      if (error) reject(error);
+
+      resolve(payments);
+    });
+  });
+
+  return payments.map((payment) => payment.tripId);
+}
+
+module.exports = { fullTrips, tripIdsFromPhoneNumber };

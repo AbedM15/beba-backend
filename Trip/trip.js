@@ -1,6 +1,6 @@
 const authenticateJWT = require("../AuthenticateJwt/authenticateJwt");
 const stores = require("../Stores/stores");
-const { fullTrips } = require("./tripUtils");
+const { fullTrips, tripIdsFromPhoneNumber } = require("./tripUtils");
 
 const router = require("express").Router();
 
@@ -50,6 +50,27 @@ router.get("/:tripId", authenticateJWT, async (req, res) => {
 
     const [trip] = await fullTrips([shallowTrip.id]);
     res.send({ success: true, trip });
+  } catch (error) {
+    res.send({ success: false, message: error.message });
+  }
+});
+
+router.get("/delete/:tripId", async (req, res) => {
+  try {
+  } catch (error) {
+    res.send({ success: false, message: error.message });
+  }
+});
+
+router.get("/list/:phoneNumber", async (req, res) => {
+  try {
+    const { phoneNumber } = req.params;
+
+    const tripIds = await tripIdsFromPhoneNumber(phoneNumber);
+
+    const trips = await fullTrips(tripIds);
+
+    res.send({ success: true, trips });
   } catch (error) {
     res.send({ success: false, message: error.message });
   }

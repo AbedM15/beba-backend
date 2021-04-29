@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require("path");
 const app = express();
 const bodyParser = require("body-parser");
 const cors = require("cors");
@@ -6,6 +7,7 @@ const user = require("./User/user");
 const vehicle = require("./Vehicle/vehicle");
 const trip = require("./Trip/trip");
 const payment = require("./Payments/payments");
+// app.use(express.static(path.join(__dirname, "build")));
 app.use(bodyParser.json());
 app.use(cors());
 
