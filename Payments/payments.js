@@ -16,11 +16,13 @@ router.post("/add", authenticateJWT, async (req, res) => {
       });
     });
 
-    await askSafForStkPush(payment.phoneNumber, payment.id, payment.fare).then(
-      ({ data }) => {
-        console.log(data);
-      }
-    );
+    await askSafForStkPush(
+      payment.phoneNumber,
+      payment.id,
+      parseInt(payment.amount)
+    ).then(({ data }) => {
+      console.log(data);
+    });
 
     res.send({ success: true, addedPayment });
   } catch (error) {
