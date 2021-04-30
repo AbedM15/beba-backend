@@ -1,7 +1,10 @@
+{"amount":20,"phoneNumber":"254714287056","fullyPaid":false,"id":"8e54162d-e4ec-4768-b985-8df7e2fc2424","tripId":"b553b904-3dac-43a7-8ba4-f7c68e170ec1","_id":"07sg0xyfOGcjIG8Y"}
 {"amount":0,"phoneNumber":"32897423","id":"232804b2-d149-48b6-b713-ba0f2931c0cb","tripId":"3cb97190-fcf3-4289-a475-7af9f692a983","_id":"0w153PzILAhbi4Wb"}
+{"amount":20,"phoneNumber":"254714287056","fullyPaid":false,"id":"1d5c0e27-7bcd-403c-9906-a77901ec3587","tripId":"3cb97190-fcf3-4289-a475-7af9f692a983","_id":"1mEmzwLoXf50bgsX","paid":false,"paymentDescription":"Request cancelled by user"}
 {"amount":0,"phoneNumber":"23423","id":"538550dd-b011-4377-b6f2-9782cad2b2b8","tripId":"ec4eb1ad-0e52-4785-ad8d-08db18681ce0","_id":"2JLeZLu9q8Gim4mB"}
 {"id":"somepayment","amount":50,"phoneNumber":"92983927","tripId":"sometrip","_id":"2Q2urMxspXWwEfJJ"}
 {"amount":0,"phoneNumber":"3424","id":"bf407600-5709-4197-9f1b-a1da373e27f6","tripId":"ba4301bf-5098-4c50-81b8-3eaa33fc0ea8","_id":"9CB1r0SSwHiU1LSu"}
+{"amount":20,"phoneNumber":"254714287056","fullyPaid":false,"id":"d9aeb5e0-b1f7-40ed-838b-47a9e4500614","tripId":"b553b904-3dac-43a7-8ba4-f7c68e170ec1","_id":"AcLx4RG5oyicAAZ9"}
 {"amount":0,"phoneNumber":"234235","id":"421a830c-9c21-48c6-9359-21cac4b7acbe","tripId":"ba4301bf-5098-4c50-81b8-3eaa33fc0ea8","_id":"AnXePYPwkb6wyFNq"}
 {"amount":0,"phoneNumber":"242342","id":"6e8b8d2f-f805-4b8c-a6c7-518ad2c9b480","tripId":"ba4301bf-5098-4c50-81b8-3eaa33fc0ea8","_id":"BAWdLhkoM2zxdHBg"}
 {"amount":0,"phoneNumber":"234e234","id":"451be8ff-e129-4dbf-ab10-26c0dc57d715","tripId":"085843bb-e8d3-4c49-a48b-6bbf68e18c73","_id":"Fou2g9ZqV9e6owuA"}
@@ -9,9 +12,14 @@
 {"amount":0,"phoneNumber":"45354345","id":"2a6a4dcb-2938-4974-983c-e137e880718d","tripId":"ba4301bf-5098-4c50-81b8-3eaa33fc0ea8","_id":"JXbzk1fuAv6oAu8v"}
 {"amount":0,"phoneNumber":"234234","id":"8d934885-a76d-4056-8969-9e67fecb830b","tripId":"ba4301bf-5098-4c50-81b8-3eaa33fc0ea8","_id":"NiKIgkJJSQhmyJcd"}
 {"amount":0,"phoneNumber":"254740521855","fullyPaid":false,"id":"b5fc6c9f-46d0-49b2-9276-1ceb22681e67","tripId":"96342856-41a5-4bd8-882c-13a86424c5d4","_id":"Rn0lf0XwLcJ0J6hJ"}
+{"amount":20,"phoneNumber":"254714287056","fullyPaid":false,"id":"ef165710-af57-433f-bc77-ac6bdb98623e","tripId":"b553b904-3dac-43a7-8ba4-f7c68e170ec1","_id":"U7zzysy0n0Fdwnmh"}
 {"amount":20,"phoneNumber":"254740521855","fullyPaid":false,"id":"8e485a69-a360-4969-8089-59f60dd25a51","tripId":"b553b904-3dac-43a7-8ba4-f7c68e170ec1","_id":"UBlca6kn6eaHOtfl"}
 {"amount":0,"phoneNumber":"254740521855","fullyPaid":false,"id":"10676268-e93b-4f57-80f6-53e2ba1d95d4","tripId":"b553b904-3dac-43a7-8ba4-f7c68e170ec1","_id":"V58QjpDTC3KWl0rt"}
 {"amount":0,"phoneNumber":"254740521855","fullyPaid":false,"id":"a440e776-8fe5-4c38-afa0-6b547bd97777","tripId":"b553b904-3dac-43a7-8ba4-f7c68e170ec1","_id":"VDA8yhUTDd76qLp1"}
+{"amount":20,"phoneNumber":"254714287056","fullyPaid":false,"id":"204cecf6-27df-479e-aa34-f52cad524ba5","tripId":"3cb97190-fcf3-4289-a475-7af9f692a983","_id":"X1KlUw8KGEpgrSyR"}
+{"amount":20,"phoneNumber":"254714287056","fullyPaid":false,"paymentDescription":"Request cancelled by user","id":"c82f467c-d516-46b0-a075-b4bdd5484e35","tripId":"d2109c2a-879f-4a1f-8167-53d4c87d011f","_id":"am3EcvHq5BNzFp7k","paid":"error"}
+{"amount":20,"phoneNumber":"254714287056","fullyPaid":false,"id":"dff1bed9-d56d-45a7-b768-bcd073c2453b","tripId":"b553b904-3dac-43a7-8ba4-f7c68e170ec1","_id":"cTDmz2JRgSDEHSkp"}
+{"amount":20,"phoneNumber":"254714287056","fullyPaid":false,"id":"c7cd7bfe-18dc-4012-81fa-464de2c2df37","tripId":"3cb97190-fcf3-4289-a475-7af9f692a983","_id":"fHrLgy6SRi3BYdBR"}
 {"amount":0,"phoneNumber":"074","fullyPaid":false,"id":"250f8f4f-49f3-47f8-86ee-d31281154472","tripId":"b553b904-3dac-43a7-8ba4-f7c68e170ec1","_id":"hv0XBG7zdqCdmz4O"}
 {"amount":0,"phoneNumber":"12313","id":"50ec8921-eb2d-4c87-9b81-87919f4f8b47","tripId":"ec4eb1ad-0e52-4785-ad8d-08db18681ce0","_id":"isuR31gEv4ilQMhb"}
 {"amount":0,"phoneNumber":"23424","id":"9df297cb-88ae-44d8-8446-f162331ea1eb","tripId":"ec4eb1ad-0e52-4785-ad8d-08db18681ce0","_id":"jOczZXO7HZWWlaNo"}
@@ -20,3 +28,6 @@
 {"amount":0,"phoneNumber":"234234","id":"5fcfd7b3-9801-42b5-b740-2912482b0559","tripId":"ba4301bf-5098-4c50-81b8-3eaa33fc0ea8","_id":"vDkBAzAjMQJ6mpv7"}
 {"amount":0,"phoneNumber":"289347324","id":"3c0c038b-e3f2-4c1e-b7a0-c2c86adb5e58","tripId":"3cb97190-fcf3-4289-a475-7af9f692a983","_id":"vM0h34T229baDdIC"}
 {"amount":0,"phoneNumber":"2425","id":"fd8b07d7-c2d0-45c2-9b3c-c3adfd559c20","tripId":"ec4eb1ad-0e52-4785-ad8d-08db18681ce0","_id":"wfnSH8R6IIOZSxTs"}
+{"amount":20,"phoneNumber":"254714287056","fullyPaid":false,"id":"89f08818-5466-43a8-8da5-c2c6c5a4c076","tripId":"b553b904-3dac-43a7-8ba4-f7c68e170ec1","_id":"yc3rxAfAtfZWEXdg"}
+{"amount":"10","phoneNumber":"254714287056","fullyPaid":false,"paymentDescription":null,"id":"b3ac16a7-eb8f-413e-8acd-49b87955dfab","tripId":"96342856-41a5-4bd8-882c-13a86424c5d4","_id":"ThK5mu8xfbMLOHUQ"}
+{"amount":"10","phoneNumber":"254714287056","fullyPaid":false,"paymentDescription":null,"id":"75f11d0c-5024-41eb-bbcf-a236fd60fb54","tripId":"96342856-41a5-4bd8-882c-13a86424c5d4","_id":"LgVoVIs2b48Q8f9K"}

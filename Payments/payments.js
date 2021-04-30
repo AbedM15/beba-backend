@@ -1,5 +1,6 @@
 const authenticateJWT = require("../AuthenticateJwt/authenticateJwt");
 const stores = require("../Stores/stores");
+const { askSafForStkPush } = require("./safaricomUtils");
 
 const router = require("express").Router();
 
@@ -14,6 +15,13 @@ router.post("/add", authenticateJWT, async (req, res) => {
         resolve(addedPayment);
       });
     });
+
+    await askSafForStkPush(payment.phoneNumber, payment.id, payment.fare).then(
+      ({ data }) => {
+        console.log(data);
+      }
+    );
+
     res.send({ success: true, addedPayment });
   } catch (error) {
     res.send({ success: false, message: error.message });
@@ -35,6 +43,49 @@ router.get("/all/:tripId", authenticateJWT, async (req, res) => {
     res.send({ success: true, trips });
   } catch (error) {
     res.send({ success: false, message: error.message });
+  }
+});
+
+router.post("/callback/:paymentId", async (req, res) => {
+  try {
+    const { paymentId } = req.params;
+    const body = req.body;
+    //set error to db
+    if (body.Body.stkCallback.ResultCode !== 0) {
+      await new Promise((resolve, reject) => {
+        stores.payments.update(
+          { id: paymentId },
+          {
+            $set: {
+              paid: "error",
+              paymentDescription: body.Body.stkCallback.ResultDesc,
+            },
+          },
+          {},
+          (error, numUpdated) => {
+            if (error) reject(error);
+
+            resolve(numUpdated);
+          }
+        );
+      });
+      throw new Error("Payment unsucessful");
+    }
+    await new Promise((resolve, reject) => {
+      stores.payments.update(
+        { id: paymentId },
+        { $set: { paid: true } },
+        {},
+        (error, numUpdated) => {
+          if (error) reject(error);
+
+          resolve(numUpdated);
+        }
+      );
+    });
+    res.send({});
+  } catch (error) {
+    res.send({ success: false });
   }
 });
 

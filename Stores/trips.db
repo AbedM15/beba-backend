@@ -4,4 +4,5 @@
 {"destination":"buruburu","fare":"50","id":"b553b904-3dac-43a7-8ba4-f7c68e170ec1","payments":[],"vehicleId":"7191e815-76e8-4ad3-8b8b-e2a15cb1abee","_id":"bJr9g0aGG4WxEuaF"}
 {"destination":"Kwa farez","fare":"10","id":"96342856-41a5-4bd8-882c-13a86424c5d4","payments":[],"vehicleId":"f88cfcca-5433-4829-9aa7-6e1d38788ab5","_id":"bMKNmcyafD9bQW7g"}
 {"destination":"Ruaka","fare":"50","id":"ec4eb1ad-0e52-4785-ad8d-08db18681ce0","payments":[],"vehicleId":"79e0e50d-13ca-4142-8587-fa147fdbdf0a","_id":"drbTe8Y7WdtGsDyh"}
+{"destination":"Kwa farez","fare":"10","id":"d2109c2a-879f-4a1f-8167-53d4c87d011f","payments":[],"vehicleId":"a7c00479-3ed9-45f0-b3d0-dc1d479d04a8","_id":"haofrOUXepahaQjG"}
 {"id":"sometrip","destination":"buruburu","fareCharge":50,"vehicleId":"someid","_id":"ydst0RRbp729sqEz"}
